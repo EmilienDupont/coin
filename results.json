@@ -1,0 +1,22 @@
+{
+    "name": "COIN",
+    "description": "Compression with implicit neural representations",
+    "results": {
+      "psnr": [
+        22.408,
+        23.205,
+        24.6410833,
+        26.412125,
+        28.408,
+        30.644,
+      ],
+      "bpp": [
+        0.0368,
+        0.07361,
+        0.1604,
+        0.3074,
+        0.6109,
+        1.209,
+      ]
+    }
+  }
