@@ -2,7 +2,7 @@
 
 This repo contains a Pytorch implementation of [COIN: COmpression with Implicit Neural representations](https://arxiv.org/abs/2103.03123), including code to reproduce all experiments and plots in the paper.
 
-<img src="https://github.com/EmilienDupont/coin-private/raw/main/imgs/coin_summary.png" width="800">
+<img src="https://github.com/EmilienDupont/coin/raw/main/imgs/coin_summary.png" width="800">
 
 ## Requirements
 
