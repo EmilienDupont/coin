@@ -14,7 +14,7 @@ from training import Trainer
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-ld", "--logdir", help="Path to save logs", default=f"/tmp/{getpass.getuser()}")
-parser.add_argument("-ni", "--num_iters", help="Number of iterations to train for", type=int, default=10000)
+parser.add_argument("-ni", "--num_iters", help="Number of iterations to train for", type=int, default=50000)
 parser.add_argument("-lr", "--learning_rate", help="Learning rate", type=float, default=2e-4)
 parser.add_argument("-se", "--seed", help="Random seed", type=int, default=random.randint(1, int(1e6)))
 parser.add_argument("-fd", "--full_dataset", help="Whether to use full dataset", action='store_true')
